@@ -58,7 +58,7 @@ class SettingsViewController: UIViewController {
     }
     
     func startGame() {
-        print("start button has been pressed!")
+        //print("start button has been pressed!")
         let alienAdventureViewController = self.storyboard!.instantiateViewController(withIdentifier: "AlienAdventureViewController") as! AlienAdventureViewController
         self.present(alienAdventureViewController, animated: true, completion: nil)
     }

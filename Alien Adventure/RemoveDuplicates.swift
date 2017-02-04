@@ -9,7 +9,20 @@
 extension Hero {
     
     func removeDuplicates(inventory: [UDItem]) -> [UDItem] {        
-        return [UDItem]()
+        
+        var encountered = Set<UDItem>()
+        var result = [UDItem]()
+
+        for value in inventory{
+            if encountered.contains(value){
+                // do nothing otherwise ur adding duplicates
+            }else{
+                encountered.insert(value)
+                result.append(value)
+            }
+        }
+
+        return result
     }
     
 }
