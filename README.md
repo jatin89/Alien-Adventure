@@ -6,6 +6,10 @@
 
 This repository contains starter code for the Alien Adventure project in Udacity's iOS Nanodegree.
 
+## App-Screenshot
+
+![simulator screen shot feb 7 2017 9 49 22 pm](https://cloud.githubusercontent.com/assets/8715819/22722864/71cca9ae-ed7f-11e6-930a-15a118b6150e.png)
+
 ## Overview
 
 Alien Adventure is an intergalactic "click-to-continue" game. The game's main robot protagonist needs your help answering  questions posed by aliens who block its path.
